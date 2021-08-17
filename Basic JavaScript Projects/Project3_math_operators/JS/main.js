@@ -1,6 +1,6 @@
 function addition_Function() { //defining a function
     var addition = 27 + 13; //defining a variable
-    document.getElementById("Math").innerHTML = "27 + 13 =" +addition; //adding element to HTML
+    document.getElementById("Math").innerHTML = "27 + 13 = " +addition; //adding element to HTML
 }
 
 function subtraction_Function () { //defining a function
