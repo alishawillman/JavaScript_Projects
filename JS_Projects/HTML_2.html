@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <link rel="stylesheet" href="CSS/CSS_1.css">
+        <script src="JS/JavaScript_2.js" defer></script>
+    </head>
+    <body>
+        <h2>Contact Form Challenge</h2>
+        <form name="myForm" onsubmit="return validateForm()" method="post">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value=""><br>
+            <h3>Choose your favorite flavor of ice cream:</h3>
+            <input type="radio" id="Vanilla" name="fav_icecream" value="Vanilla">
+            <label for="Vanilla">Vanilla</label><br>
+            <input type="radio" id="Chocolate" name="fav_icecream" value="Chocolate">
+            <label for="Chocolate">Chocolate</label><br>
+            <input type="radio" id="Strawberry" name="fav_icecream" value="Strawberry">
+            <label for="Strawberry">Strawberry</label><br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
